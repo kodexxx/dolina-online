@@ -412,9 +412,9 @@ body {
 	}
 	#player-mailru {
 		width: 100%;
-		height: calc((100vw - 400px) * 9 / 16);
+		height: calc((100vw - 418px) * 9 / 16);
 		max-width: 1500px;
-		max-height: 650px;
+		max-height: 673px;
 	}
 	.video-js {
 		width: 100%;
@@ -512,8 +512,8 @@ body {
 		display: none;
 	}
 	#player-mailru {
-		width: 100%;
-		height: calc(100vw * 9 / 16);
+    	width: 100%;
+    	height: calc(100vw * 0.5465);
 	}
 	.video-js {
 		width: 100%;
