@@ -104,7 +104,7 @@ $(document).ready(function(){
 	});*/
 
 	$("#seasonpicker").selectpicker();
-	$('#select-translate').selectpicker();
+	$("#selecttranslate").selectpicker();
 	
 	var vk_width;
 	if($(window).width() > 1500) vk_width = 1200;
