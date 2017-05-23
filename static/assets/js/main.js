@@ -3,7 +3,7 @@ function changeTranslation()
 {
 	document.getElementById("mainCCwarp").innerHTML = "";
 
-	var videourl = document.getElementById("select-translate").value;
+	var videourl = document.getElementById("selecttranslate").value;
 
 	if(videourl.substr(0, 6) == "mailru")
 	{
@@ -102,9 +102,9 @@ $(document).ready(function(){
 		if(this.paused) this.play();
 		else this.pause();
 	});*/
-
-	$("#seasonpicker").selectpicker();
 	$("#selecttranslate").selectpicker();
+	$("#seasonpicker").selectpicker();
+	
 	
 	var vk_width;
 	if($(window).width() > 1500) vk_width = 1200;
@@ -112,7 +112,7 @@ $(document).ready(function(){
 	else if($(window).width() < 900) vk_width = $(window).width();
 	else vk_width = 700;
 		
-	if(document.getElementById("vk_comments"))
+	/*if(document.getElementById("vk_comments"))
 	{
 		VK.init({apiId: 5336349, onlyWidgets: true});
 		console.log(vk_width);
@@ -121,7 +121,7 @@ $(document).ready(function(){
 	if(document.getElementById("vk_groups"))
 	{	
 		VK.Widgets.Group("vk_groups", {mode: 0, width: vk_width, height: vk_width * 0.5, color1: 'FFFFFF', color2: '525252', color3: 'C50000'}, 71899623);
-	}
+	}*/
 });
 
 
